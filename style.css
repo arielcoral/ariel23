@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+div.header{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 15px rgb(77, 77, 77);
+}
+div.top{
+    margin-top: 49px;
+}
+div.topsection{
+    margin-bottom: 50px;
+    width: 100%;
+    height: 500px;
+    background-image: url('https://www.picshare.co.il/m_pictures/img164463.jpg');
+}
+div.sectionL{
+    margin: 70px 0px 0px 30px;
+}
+h1.title{
+    background-color: black;
+    color: #ffffff;
+    width: 450px;
+}
+h4.title2{
+    width: 450px;
+     background-color: black;
+     color: #ffffff; 
+ }
+div.sectionR{
+    background-color: #ffffff;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(64, 64, 64);
+    margin-top: 60px;
+ }
+input{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    padding: 7px 77px 7px 77px;
+}
+button#buttonform{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(0, 171, 0);
+    border: none;
+    color: #ffffff;
+    padding: 7px 100px 7px 100px;
+    margin: 10px 0px 10px 0px;
+}
+h1.h1totop{
+    font-size: 29px;
+ }
+img.row1_img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+  }
+ div.row2{
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+ h1.h1_row2{
+    text-align: center;
+}
+div.section3{
+    margin-top: 50px;
+ }
+div.row2border{
+    width: 500px;
+    border-right: 1px solid rgb(66, 66, 66);
+}
+ div.row2text {
+    text-align: center;
+}
+img.row2img{
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+div.section3 {
+    background-color: #f0e8e5;
+    text-align: center;
+  }
+p.article{
+    background-color: #f0e8e5;
+    text-align: center;
+ }
+
+
+ 
+.footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+.logo{
+  display: inline-block;
+}
+.fa-solid{
+  margin-left: 30px;
+}
+
+@media (max-width:600px) {
+div.topsection{
+    height: 700px;
+}
+div.sectionR{
+    margin-left:0px;
+}
+
+div.sectionL{
+    margin: 70px 0px 0px 0px;
+}
+.row2border {
+    border-right: none;
+    border-bottom: 1px solid black;
+}  
+}
